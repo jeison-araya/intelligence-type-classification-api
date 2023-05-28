@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  api:
+    container_name: intelligence-type-classifier-api
+    build: .
+    restart: always
+    ports:
+      - 8000:80
+    env_file:
+      - .env
