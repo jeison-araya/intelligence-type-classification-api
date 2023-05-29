@@ -1,16 +1,13 @@
 from pydantic import BaseModel
 from pydantic import Field
-from app.database.schemas import BaseConfig
 from app.database.schemas import PyObjectId
+from app.database.schemas import BaseConfig
 
 
-class _BaseQuestion(BaseModel):
+class Intelligence(BaseModel):
     id: PyObjectId = Field(default_factory=PyObjectId, alias='_id')
-    text: str
+    name: str
+    description: str
 
     class Config(BaseConfig):
         pass
-
-
-class Question(_BaseQuestion):
-    pass

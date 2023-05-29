@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Inteligencia espacial",
+    "description": "Habilidad para visualizar y manipular objetos en el espacio, así como para orientarse y comprender mapas y gráficos."
+  },
+  {
+    "name": "Inteligencia musical",
+    "description": "Capacidad para apreciar, componer y ejecutar piezas musicales, así como para reconocer y reproducir diferentes tonos, ritmos y patrones musicales."
+  },
+  {
+    "name": "Inteligencia lingüístico-verbal",
+    "description": "Competencia en el uso y comprensión del lenguaje oral y escrito, habilidad para expresarse de manera efectiva, comprender textos y apreciar la estructura y el significado de las palabras."
+  },
+  {
+    "name": "Inteligencia lógico-matemática",
+    "description": "Aptitud para razonar de manera lógica, pensar de forma abstracta, resolver problemas matemáticos y comprender principios y relaciones lógicas."
+  },
+  {
+    "name": "Inteligencia corporal-cinestésica",
+    "description": "Destreza física y habilidad para controlar y coordinar el cuerpo, realizar movimientos precisos, así como para involucrarse en actividades deportivas y expresión artística a través del movimiento."
+  },
+  {
+    "name": "Inteligencia intrapersonal",
+    "description": "Conocimiento y comprensión de uno mismo, capacidad de reflexionar, establecer metas personales, tomar decisiones y regular las propias emociones y acciones."
+  },
+  {
+    "name": "Inteligencia interpersonal",
+    "description": "Habilidad para entender y relacionarse eficazmente con otras personas, empatizar, trabajar en equipo, comunicarse de manera efectiva y resolver conflictos."
+  },
+  {
+    "name": "Inteligencia naturalista",
+    "description": "Sensibilidad y capacidad para observar y comprender la naturaleza, clasificar y reconocer patrones en el mundo natural, así como para apreciar y proteger el entorno natural."
+  },
+  {
+    "name": "Inteligencia existencial",
+    "description": "Reflexión y exploración de preguntas filosóficas y existenciales, como el sentido de la vida, la trascendencia y la conciencia de la propia existencia."
+  },
+  {
+    "name": "Inteligencia creativa",
+    "description": "Imaginación, originalidad y capacidad para generar ideas nuevas, resolver problemas de forma novedosa y aplicar la creatividad en diferentes áreas."
+  },
+  {
+    "name": "Inteligencia emocional",
+    "description": "Habilidad para reconocer, comprender y gestionar las propias emociones, así como para percibir y responder adecuadamente a las emociones de los demás."
+  },
+  {
+    "name": "Inteligencia colaborativa",
+    "description": "Competencia para trabajar en equipo, cooperar, comunicarse eficientemente y contribuir de manera efectiva en la consecución de objetivos grupales."
+  }
+]
