@@ -25,7 +25,7 @@ def register_user(user: CreateUser):
     return crud.create_user(user)
 
 
-@router.post('/users/login', response_model=Token)
+@router.post('/users/login/', response_model=Token)
 def login_user(user_credentials: UserCredentials):
     user = crud.get_user_by_email(user_credentials.email)
 
