@@ -10,7 +10,10 @@ from app.utility.utils import get_origins
 
 
 # APP
-app = FastAPI()
+app = FastAPI(
+    title='Intelligence Type Classification API',
+    description='API for intelligence type classification',
+    version='1.0.0')
 
 # MIDDLEWARES
 app.add_middleware(
