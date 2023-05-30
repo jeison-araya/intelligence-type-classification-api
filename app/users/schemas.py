@@ -1,9 +1,8 @@
-from typing import List
 from pydantic import BaseModel
 from pydantic import Field
 from app.database.schemas import BaseConfig
 from app.database.schemas import PyObjectId
-
+from app.users.profiles.schemas import Profile
 
 
 class _BaseUser(BaseModel):
@@ -26,7 +25,7 @@ class CreateUser(_BaseUser):
 class User(_BaseUser):
     id: PyObjectId = Field(default_factory=PyObjectId, alias='_id')
 
-    # responses: List[Response] = []
+    profile: Profile = None
 
     class Config(BaseConfig):
         pass
