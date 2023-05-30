@@ -2,7 +2,7 @@
 CRUD operations for questions
 """
 import random
-from app.questions.schemas import Question
+from app.questionnaires.questions.schemas import Question
 from app.database.mongo import database
 
 
@@ -17,4 +17,3 @@ def get_questions() -> Question:
     random.shuffle(questions)
 
     return questions
-
