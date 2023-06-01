@@ -13,6 +13,7 @@ class Weight(BaseModel):
 class _BaseQuestion(BaseModel):
     id: PyObjectId = Field(default_factory=PyObjectId, alias='_id')
     question: str
+    weights: List[Weight] = []
 
     class Config(BaseConfig):
         pass
@@ -20,7 +21,3 @@ class _BaseQuestion(BaseModel):
 
 class Question(_BaseQuestion):
     pass
-
-
-class QuestionInBD(_BaseQuestion):
-    weights: List[Weight] = []
