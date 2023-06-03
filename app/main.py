@@ -3,11 +3,11 @@ Intelligence Type Classification API
 """
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.questionnaires.routers import router as questionnaires_router
-from app.users.routers import router as users_router
 from app.intelligences.routers import router as intelligences_router
+from app.users.routers import router as users_router
+from app.questionnaires.routers import router as questionnaires_router
+from app.questions.routers import router as questions_router
 from app.utility.utils import get_origins
-
 
 # APP
 app = FastAPI(
@@ -28,3 +28,4 @@ app.add_middleware(
 app.include_router(users_router, tags=['Users'])
 app.include_router(questionnaires_router, tags=['Questionnaires'])
 app.include_router(intelligences_router, tags=['Intelligences'])
+app.include_router(questions_router, tags=['Questions'])

@@ -1,7 +1,7 @@
 from typing import List
 from app.questionnaires.answers.schemas import Answer
 from app.questionnaires.actions.schemas import IntelligenceProfile
-from app.questionnaires.questions import crud as questions_crud
+from app.questions import crud as questions_crud
 from app.intelligences.schemas import Intelligence
 from app.questionnaires.actions.utils import sort_by_weight
 
