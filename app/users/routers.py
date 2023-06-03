@@ -26,7 +26,7 @@ def register_user(user: CreateUser):
 
 
 @router.post('/users/login/', response_model=Token)
-def login_user(login: Login):
+def user_login(login: Login):
     user = crud.get_user_by_email(email=login.email)
 
     if not user:
