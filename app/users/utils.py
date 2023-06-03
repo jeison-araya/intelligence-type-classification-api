@@ -9,7 +9,7 @@ SECRET_KEY = utils.getenv('SECRET_KEY')
 
 
 def generate_token(user_id: str) -> str:
-    expiration_time = datetime.utcnow() + timedelta(minutes=30)
+    expiration_time = datetime.utcnow() + timedelta(minutes=60)
 
     payload = {
         "sub": user_id,
