@@ -6,8 +6,8 @@ from app.database.schemas import PyObjectId
 
 
 class Weight(BaseModel):
-    intelligence_id: PyObjectId = Field(default_factory=PyObjectId)
-    weight: int = Field(..., ge=0, le=10)
+    intelligence_code: int
+    weight: int = Field(..., ge=0, le=12)
 
 
 class _BaseQuestion(BaseModel):

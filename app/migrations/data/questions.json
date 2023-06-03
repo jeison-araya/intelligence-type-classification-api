@@ -1,0 +1,1910 @@
+[
+  {
+    "question": "¿En qué medida puedo visualizar y manipular mentalmente objetos en tres dimensiones?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan fácilmente puedo orientarme en un entorno desconocido y encontrar el camino más corto entre dos puntos?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán hábil soy para interpretar y crear representaciones gráficas, como mapas, diagramas y planos arquitectónicos?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan fácilmente puedo identificar los diferentes elementos musicales, como el ritmo, la melodía y la armonía, cuando escucho una canción?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida puedo reconocer y distinguir diferentes géneros musicales con facilidad?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan rápido puedo aprender a tocar un instrumento musical nuevo?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida puedo expresar mis ideas de manera clara y efectiva, tanto oralmente como por escrito?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan hábil soy para comprender y analizar textos complejos, como ensayos, novelas o documentos técnicos?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán fácilmente puedo aprender nuevos idiomas y comunicarme con fluidez en ellos?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida soy capaz de resolver problemas matemáticos complejos y aplicar principios lógicos en situaciones diversas?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan hábil soy para reconocer patrones, secuencias y relaciones matemáticas en diferentes contextos?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán fácilmente puedo aplicar principios matemáticos en situaciones prácticas y resolver problemas del mundo real?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida puedo utilizar mi cuerpo de manera coordinada y precisa para realizar actividades físicas o expresarme a través del movimiento?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan hábil soy para aprender y dominar nuevas habilidades físicas o deportivas?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán fácilmente puedo expresar ideas, emociones o narrativas a través del movimiento o la danza?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida puedo comprender y manejar mis propias emociones, motivaciones y pensamientos de manera efectiva?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan consciente soy de mis propias fortalezas, debilidades, valores y metas personales?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán consciente soy de mis propias emociones, necesidades y deseos en relación con los demás y el entorno que me rodea?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida soy capaz de comprender y responder adecuadamente a las emociones, necesidades y perspectivas de los demás?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 8
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan eficaz soy en el establecimiento y mantenimiento de relaciones interpersonales significativas?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 8
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán hábil soy en la resolución de conflictos, la negociación y la construcción de consensos en situaciones sociales?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 8
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida puedo reconocer, clasificar y comprender los diferentes elementos de la naturaleza, como plantas, animales, ecosistemas, y su interrelación?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan desarrollada está mi capacidad para apreciar la belleza y la armonía en la naturaleza, así como para conectarme y cuidar del entorno natural?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán hábil soy para observar y detectar patrones y procesos en la naturaleza, así como para utilizar ese conocimiento en beneficio del medio ambiente y la sostenibilidad?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida reflexiono y busco el sentido y propósito de la vida, así como la comprensión de los aspectos más profundos de la existencia?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan consciente soy de mi propia existencia y de las cuestiones filosóficas y trascendentales relacionadas con la vida humana y el universo?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán interesado estoy en explorar y comprender la relación entre la existencia humana, el significado de la vida y las dimensiones más amplias del universo?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida soy capaz de generar ideas originales, soluciones innovadoras y expresiones artísticas únicas?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán abierto estoy a nuevas perspectivas, experiencias y enfoques que estimulen mi imaginación y fomenten mi creatividad?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan propenso soy a explorar nuevas ideas, experimentar con diferentes enfoques y llevar a cabo proyectos creativos en diversas áreas?",
+    "weights": [
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida puedo reconocer, comprender y gestionar mis propias emociones de manera efectiva?",
+    "weights": [
+      {
+        "intelligence_code": 10,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan capaz soy de reconocer y comprender las emociones de los demás, así como de responder de manera empática y adecuada?",
+    "weights": [
+      {
+        "intelligence_code": 10,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 8
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán hábil soy en el manejo de las relaciones interpersonales, la resolución de conflictos y la promoción de un ambiente emocionalmente saludable?",
+    "weights": [
+      {
+        "intelligence_code": 10,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 12
+      },
+      {
+        "intelligence_code": 11,
+        "weight": 6
+      }
+    ]
+  },
+  {
+    "question": "¿En qué medida disfruto trabajando en equipo, colaborando con otros y siendo parte de proyectos colectivos?",
+    "weights": [
+      {
+        "intelligence_code": 11,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 12
+      }
+    ]
+  },
+  {
+    "question": "¿Cuán hábil soy en establecer relaciones colaborativas, comunicarme eficazmente y trabajar en armonía con otros para alcanzar metas comunes?",
+    "weights": [
+      {
+        "intelligence_code": 11,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 12
+      }
+    ]
+  },
+  {
+    "question": "¿Qué tan dispuesto estoy a colaborar con otros, compartir ideas, conocimientos y recursos, y contribuir de manera positiva al éxito colectivo?",
+    "weights": [
+      {
+        "intelligence_code": 11,
+        "weight": 7
+      },
+      {
+        "intelligence_code": 8,
+        "weight": 1
+      },
+      {
+        "intelligence_code": 3,
+        "weight": 8
+      },
+      {
+        "intelligence_code": 4,
+        "weight": 4
+      },
+      {
+        "intelligence_code": 2,
+        "weight": 5
+      },
+      {
+        "intelligence_code": 7,
+        "weight": 9
+      },
+      {
+        "intelligence_code": 0,
+        "weight": 11
+      },
+      {
+        "intelligence_code": 5,
+        "weight": 3
+      },
+      {
+        "intelligence_code": 1,
+        "weight": 2
+      },
+      {
+        "intelligence_code": 9,
+        "weight": 6
+      },
+      {
+        "intelligence_code": 10,
+        "weight": 10
+      },
+      {
+        "intelligence_code": 6,
+        "weight": 12
+      }
+    ]
+  }
+]
