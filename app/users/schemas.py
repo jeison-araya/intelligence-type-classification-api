@@ -2,33 +2,27 @@ from pydantic import BaseModel
 from pydantic import Field
 from app.database.schemas import BaseConfig
 from app.database.schemas import PyObjectId
-from app.users.profiles.schemas import Profile
 
 
 class _BaseUser(BaseModel):
     email: str
-    password: str
     full_name: str
-
-
-class CreateUser(_BaseUser):
-    class Config(BaseConfig):
-        schema_extra = {
-            'example': {
-                'email': 'user@mail.com',
-                'password': 'secret',
-                'full_name': 'John Doe'
-            }
-        }
-
-
-class User(_BaseUser):
-    id: PyObjectId = Field(default_factory=PyObjectId, alias='_id')
-
-    profile: Profile = None
 
     class Config(BaseConfig):
         pass
+
+
+class CreateUser(_BaseUser):
+    password: str
+
+
+class User(_BaseUser):
+    pass
+
+
+class UserDB(_BaseUser):
+    id: PyObjectId = Field(default_factory=PyObjectId, alias='_id')
+    password: str
 
 
 class Token(BaseModel):
@@ -36,6 +30,6 @@ class Token(BaseModel):
     token_type: str
 
 
-class UserCredentials(BaseModel):
+class Login(BaseModel):
     email: str
     password: str

@@ -2,7 +2,7 @@
 CRUD operations for users
 """
 from bson import ObjectId
-from app.users.schemas import User
+from app.users.schemas import UserDB
 from app.users.schemas import CreateUser
 from app.users.schemas import Token
 from app.database.mongo import database
@@ -13,29 +13,29 @@ from fastapi import HTTPException
 COLLECTON_NAME = 'users'
 
 
-def get_user_by_id(user_id: str) -> User:
+def get_user_by_id(user_id: str) -> UserDB:
     result = database[COLLECTON_NAME].find_one(ObjectId(user_id))
 
-    return User(**result) if result else None
+    return UserDB(**result) if result else None
 
 
-def get_user_by_email(email: str) -> User:
+def get_user_by_email(email: str) -> UserDB:
     result = database[COLLECTON_NAME].find_one({'email': email})
 
-    return User(**result) if result else None
+    return UserDB(**result) if result else None
 
 
-def create_user(user: CreateUser) -> User:
+def create_user(user: CreateUser) -> UserDB:
     result = database[COLLECTON_NAME].insert_one(user.dict())
 
     return User(**user.dict(), id=result.inserted_id)
 
 
-def create_token(user: User) -> Token:
+def create_token(user: UserDB) -> Token:
     return utils.generate_token(str(user.id))
 
 
-def get_user_by_token(token: str) -> User:
+def get_user_by_token(token: str) -> UserDB:
     """
     Gets an user from a token
     """
