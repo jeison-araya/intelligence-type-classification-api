@@ -7,11 +7,11 @@ from app.questions.schemas import QuestionDB
 from app.database.mongo import database
 
 
-COLLECTON_NAME = 'questions'
+COLLECTION_NAME = 'questions'
 
 
 def get_questions() -> List[QuestionDB]:
-    result = database[COLLECTON_NAME].find()
+    result = database[COLLECTION_NAME].find()
 
     questions = [QuestionDB(**value) for value in result] if result else []
 
@@ -21,6 +21,6 @@ def get_questions() -> List[QuestionDB]:
 
 
 def get_question(question_id: str) -> QuestionDB:
-    result = database[COLLECTON_NAME].find_one({'_id': question_id})
+    result = database[COLLECTION_NAME].find_one({'_id': question_id})
 
     return QuestionDB(**result) if result else None

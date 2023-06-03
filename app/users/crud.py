@@ -10,25 +10,25 @@ from app.users import utils
 from fastapi import HTTPException
 
 
-COLLECTON_NAME = 'users'
+COLLECTION_NAME = 'users'
 
 
 def get_user_by_id(user_id: str) -> UserDB:
-    result = database[COLLECTON_NAME].find_one(ObjectId(user_id))
+    result = database[COLLECTION_NAME].find_one(ObjectId(user_id))
 
     return UserDB(**result) if result else None
 
 
 def get_user_by_email(email: str) -> UserDB:
-    result = database[COLLECTON_NAME].find_one({'email': email})
+    result = database[COLLECTION_NAME].find_one({'email': email})
 
     return UserDB(**result) if result else None
 
 
 def create_user(user: CreateUser) -> UserDB:
-    result = database[COLLECTON_NAME].insert_one(user.dict())
+    result = database[COLLECTION_NAME].insert_one(user.dict())
 
-    return User(**user.dict(), id=result.inserted_id)
+    return UserDB(**user.dict(), id=result.inserted_id)
 
 
 def create_token(user: UserDB) -> Token:
