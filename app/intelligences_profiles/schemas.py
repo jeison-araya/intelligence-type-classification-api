@@ -1,7 +1,5 @@
-from pydantic import Field
 from pydantic import BaseModel
 from app.database.schemas import BaseConfig
-from app.database.schemas import PyObjectId
 
 
 class _BaseIntelligenceProfileItem(BaseModel):
