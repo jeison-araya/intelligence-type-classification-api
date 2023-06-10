@@ -7,6 +7,7 @@ from fastapi.security import HTTPBearer
 from fastapi.security import HTTPAuthorizationCredentials
 from app.intelligences_profiles import services as intelligences_profiles_services
 from app.intelligences_profiles.schemas import IntelligenceProfile
+from app.intelligences_profiles.schemas import IntelligenceProfileMatch
 from app.intelligences_profiles import crud as intelligences_profiles_crud
 
 
@@ -24,7 +25,8 @@ def get_intelligences_profiles(credentials: HTTPAuthorizationCredentials = Depen
     return intelligences_profiles_crud.get_intelligence_profile_by_user_id(user_id=str(user.id))
 
 
-@router.get('/intelligences_profiles/actions/matches/', response_model=List)
+@router.get('/intelligences_profiles/actions/matches/',
+            response_model=List[IntelligenceProfileMatch])
 def user_match(credentials: HTTPAuthorizationCredentials = Depends(security)):
     user = crud.get_user_by_token(token=credentials.credentials)
 

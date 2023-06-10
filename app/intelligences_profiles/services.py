@@ -7,6 +7,8 @@ from app.intelligences_profiles.schemas import CreateIntelligenceProfile
 from app.intelligences_profiles.schemas import IntelligenceProfileItem
 from app.intelligences_profiles.schemas import IntelligenceProfile
 from app.intelligences_profiles.schemas import IntelligenceProfileUser
+from app.intelligences_profiles.schemas import IntelligenceProfileMatch
+from app.intelligences_profiles.schemas import IntelligenceProfileMatchUser
 from app.intelligences_profiles import crud as intelligences_profiles_crud
 from app.questions import crud as questions_crud
 from app.questions.schemas import QuestionDB
@@ -61,7 +63,7 @@ def intelligence_profile_match(user_id: str):
         raise HTTPException(
             status_code=404, detail='Intelligence profile not found')
 
-    similar_intelligence_profiles = []
+    intelligence_profiles_matches = []
 
     for intelligence_profile_db in intelligences_profiles_crud.get_intelligences_profiles():
         if str(intelligence_profile_db.user.user_id) == user_id:
@@ -76,9 +78,16 @@ def intelligence_profile_match(user_id: str):
             if item_db:
                 distance += (item.weight - item_db.weight) ** 2
 
-        similar_intelligence_profiles.append({
-            'user': intelligence_profile_db.user,
-            'distance': distance ** 0.5
-        })
+        intelligence_profiles_matches.append(
+            IntelligenceProfileMatch(
+                user=IntelligenceProfileMatchUser(
+                    **intelligence_profile_db.user.dict()),
+                distance=distance ** 0.5
+            ))
 
-    return sorted(similar_intelligence_profiles, key=lambda item: item['distance'])
+    if len(intelligence_profiles_matches) == 0:
+        return []
+
+    intelligence_profiles_matches.sort(key=lambda match: match.distance)
+
+    return intelligence_profiles_matches

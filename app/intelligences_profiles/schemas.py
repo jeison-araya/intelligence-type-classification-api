@@ -52,3 +52,16 @@ class IntelligenceProfile(_BaseIntelligenceProfile):
 
 class IntelligenceProfileDB(_BaseIntelligenceProfile):
     pass
+
+
+class IntelligenceProfileMatchUser(BaseModel):
+    full_name: str
+    email: str
+
+    class Config(BaseConfig):
+        pass
+
+
+class IntelligenceProfileMatch(BaseModel):
+    user: IntelligenceProfileMatchUser
+    distance: float
