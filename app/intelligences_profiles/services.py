@@ -1,17 +1,16 @@
 from typing import List
 from fastapi import HTTPException
-from app.questions.schemas import QuestionDB
 from app.answers.schemas import Answer
+from app.intelligences.crud import get_intelligences
+from app.intelligences.schemas import IntelligenceDB
 from app.intelligences_profiles.schemas import CreateIntelligenceProfile
 from app.intelligences_profiles.schemas import IntelligenceProfileItem
 from app.intelligences_profiles.schemas import IntelligenceProfile
 from app.intelligences_profiles.schemas import IntelligenceProfileUser
-from app.intelligences.crud import get_intelligences
-from app.intelligences.schemas import IntelligenceDB
-from app.questions import crud as questions_crud
 from app.intelligences_profiles import crud as intelligences_profiles_crud
+from app.questions import crud as questions_crud
+from app.questions.schemas import QuestionDB
 from app.users.crud import get_user_by_id
-import pdb
 
 
 INTELLIGENCES: List[IntelligenceDB] = get_intelligences()
@@ -65,7 +64,7 @@ def intelligence_profile_match(user_id: str):
     similar_intelligence_profiles = []
 
     for intelligence_profile_db in intelligences_profiles_crud.get_intelligences_profiles():
-        if intelligence_profile_db.user_id == user_id:
+        if intelligence_profile_db.user.user_id == user_id:
             continue
 
         distance = 0

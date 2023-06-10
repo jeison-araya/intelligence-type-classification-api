@@ -1,4 +1,5 @@
 from app.database.mongo import database
+from app.database.schemas import PyObjectId
 from app.intelligences_profiles.schemas import IntelligenceProfile
 from app.intelligences_profiles.schemas import IntelligenceProfileDB
 from app.intelligences_profiles.schemas import CreateIntelligenceProfile
@@ -27,7 +28,8 @@ def update_intelligence_profile(intelligence_profile: UpdateIntelligenceProfile)
 
 
 def get_intelligence_profile_by_user_id(user_id: str) -> IntelligenceProfileDB:
-    result = database[COLLECTION_NAME].find_one({'user.user_id': user_id})
+    result = database[COLLECTION_NAME].find_one(
+        {'user.user_id': PyObjectId(user_id)})
 
     return IntelligenceProfileDB(**result) if result else None
 
