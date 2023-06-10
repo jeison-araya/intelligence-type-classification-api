@@ -5,21 +5,39 @@ from app.answers.schemas import Answer
 from app.intelligences_profiles.schemas import CreateIntelligenceProfile
 from app.intelligences_profiles.schemas import IntelligenceProfileItem
 from app.intelligences_profiles.schemas import IntelligenceProfile
+from app.intelligences_profiles.schemas import IntelligenceProfileUser
 from app.intelligences.crud import get_intelligences
 from app.intelligences.schemas import IntelligenceDB
 from app.questions import crud as questions_crud
 from app.intelligences_profiles import crud as intelligences_profiles_crud
+from app.users.crud import get_user_by_id
+import pdb
+
 
 INTELLIGENCES: List[IntelligenceDB] = get_intelligences()
 QUESTIONS: List[QuestionDB] = questions_crud.get_questions()
 
 
 def generate_intelligence_profile_from_answers(user_id: str, answers: List[Answer]) -> IntelligenceProfile:
-    intelligence_profile = CreateIntelligenceProfile(user_id=user_id)
+    user_db = get_user_by_id(user_id=user_id)
+
+    if (not user_db):
+        raise HTTPException(status_code=404, detail='User not found')
+
+    intelligence_profile = CreateIntelligenceProfile(
+        user=IntelligenceProfileUser(
+            user_id=user_db.id,
+            full_name=user_db.full_name,
+            email=user_db.email
+        )
+    )
 
     for intelligence in INTELLIGENCES:
         intelligence_profile_item = IntelligenceProfileItem(
-            intelligence_code=intelligence.code, weight=0)
+            intelligence_code=intelligence.code,
+            intelligence_name=intelligence.name,
+            weight=0
+        )
 
         for answer in answers:
             question = next(
@@ -33,8 +51,7 @@ def generate_intelligence_profile_from_answers(user_id: str, answers: List[Answe
 
     intelligence_profile.sort_items_by_weight()
 
-    return intelligences_profiles_crud.create_intelligence_profile(
-        intelligence_profile=intelligence_profile)
+    return intelligence_profile
 
 
 def intelligence_profile_match(user_id: str):
@@ -61,7 +78,7 @@ def intelligence_profile_match(user_id: str):
                 distance += (item.weight - item_db.weight) ** 2
 
         similar_intelligence_profiles.append({
-            'user_id': intelligence_profile_db.user_id,
+            'user': intelligence_profile_db.user,
             'distance': distance ** 0.5
         })
 

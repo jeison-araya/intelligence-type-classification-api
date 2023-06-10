@@ -1,10 +1,22 @@
 from pydantic import BaseModel
 from app.database.schemas import BaseConfig
+from app.database.schemas import PyObjectId
+from pydantic import Field
 
 
 class _BaseIntelligenceProfileItem(BaseModel):
     intelligence_code: int
+    intelligence_name: str
     weight: int
+
+    class Config(BaseConfig):
+        pass
+
+
+class IntelligenceProfileUser(BaseModel):
+    user_id: PyObjectId = Field(default_factory=PyObjectId)
+    full_name: str
+    email: str
 
     class Config(BaseConfig):
         pass
@@ -15,7 +27,7 @@ class IntelligenceProfileItem(_BaseIntelligenceProfileItem):
 
 
 class _BaseIntelligenceProfile(BaseModel):
-    user_id: str
+    user: IntelligenceProfileUser
     items: list[IntelligenceProfileItem] = []
 
     def sort_items_by_weight(self, assending: bool = True):
