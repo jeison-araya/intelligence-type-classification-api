@@ -64,7 +64,7 @@ def intelligence_profile_match(user_id: str):
     similar_intelligence_profiles = []
 
     for intelligence_profile_db in intelligences_profiles_crud.get_intelligences_profiles():
-        if intelligence_profile_db.user.user_id == user_id:
+        if str(intelligence_profile_db.user.user_id) == user_id:
             continue
 
         distance = 0
