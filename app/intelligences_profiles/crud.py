@@ -31,10 +31,6 @@ def get_intelligence_profile_by_user_id(user_id: str) -> IntelligenceProfileDB:
     result = database[COLLECTION_NAME].find_one(
         {'user.user_id': PyObjectId(user_id)})
 
-    if result is None:
-        raise HTTPException(
-            detail='Intelligence profile not found.', status_code=404)
-
     return IntelligenceProfileDB(**result) if result else None
 
 

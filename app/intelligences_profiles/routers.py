@@ -22,7 +22,14 @@ def get_intelligences_profiles(credentials: HTTPAuthorizationCredentials = Depen
     if not user:
         raise HTTPException(detail='User not found.', status_code=404)
 
-    return intelligences_profiles_crud.get_intelligence_profile_by_user_id(user_id=str(user.id))
+    intelligences_profile = intelligences_profiles_crud.get_intelligence_profile_by_user_id(
+        user_id=str(user.id))
+
+    if intelligences_profile is None:
+        raise HTTPException(
+            detail='Intelligence profile not found.', status_code=404)
+
+    return intelligences_profile
 
 
 @router.get('/intelligences_profiles/actions/matches/',
